@@ -71,6 +71,7 @@
     padding-bottom: 135px;
     background-color: #000000;
     position: relative;
+    text-align: center;
 }
 
 .hero-container {
@@ -84,8 +85,8 @@
 
 .hero-text {
     margin-bottom: 91px;
-    font-family: Unbounded, sans-serif;
     font-weight: 400;
+    font-family: Unbounded, sans-serif;
     font-style: Regular;
     font-size: 16px;
     line-height: 100%;
@@ -128,7 +129,12 @@
     z-index: 10;
 
 }
-
+.hero-frm{
+    max-width: 634px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
 .hero-inp::placeholder {
     font-family: Unbounded, sans-serif;
     font-weight: 400;
