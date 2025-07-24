@@ -129,12 +129,14 @@
     z-index: 10;
 
 }
-.hero-frm{
+
+.hero-frm {
     max-width: 634px;
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
 }
+
 .hero-inp::placeholder {
     font-family: Unbounded, sans-serif;
     font-weight: 400;
@@ -171,9 +173,10 @@
 }
 
 @media(max-width:768px) {
-   .hero{
-    padding-top: 200px;
-   }
+    .hero {
+        padding-top: 200px;
+    }
+
     .hero-logo {
         width: 314px;
         height: 320px;
@@ -234,7 +237,7 @@
     .hero-btn {
         width: 260px;
         height: 30px;
-        font-family: Unbounded , sans-serif;
+        font-family: Unbounded, sans-serif;
         font-weight: 600;
         font-style: SemiBold;
         font-size: 12px;
@@ -244,5 +247,623 @@
         vertical-align: middle;
         z-index: 10;
 
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-frm {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.how {
+    padding-top: 54px;
+    background-color: #1F1F1F;
+}
+
+.how-container {
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 277px;
+}
+
+.how-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-col {}
+
+.how-col-title {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 498px;
+
+}
+
+.how-col-title-span {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFE9A2;
+
+}
+
+.how-row-2 {}
+
+.how-col-2 {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.how-col-2-text {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #FFE9A2;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.how-col-2-text-2 {
+    width: 422px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 100%;
+
+}
+
+.how-box {
+    height: 98px;
+    border: 2px solid #FFFFFF;
+    width: 0;
+    position: relative;
+    top: 104px;
+    left: 10px;
+}
+
+.how-cup {
+    display: flex;
+    width: 727px;
+    height: 451px;
+}
+
+.how-col-3 {}
+
+.how-gold-cup {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .how {
+        padding-top: 50px;
+        padding-bottom: 99px;
+    }
+
+    .how-container {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .how-col-title {
+        font-family: Unbounded, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+
+    }
+
+    .how-col-title-span {
+        font-family: Unbounded, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+
+    }
+
+    .how-cup {
+        display: none;
+    }
+
+    .how-col-2-text-2 {
+        font-family: Manrope, sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 0%;
+
+        margin-bottom: 22px;
+        width: 187px;
+    }
+
+    .how-col-2-text {
+        font-family: Unbounded, sans-serif;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .how-gold-cup {
+        display: block;
+        margin-bottom: 61px;
+        width: 100%;
+    }
+
+    .how-col-2 {
+        margin-bottom: 22px;
+        position: relative;
+    }
+
+    .how-box {
+        position: relative;
+        top: 465px;
+        left: 10px;
+        height: 125px;
+        border: 1px solid #FFE9A2;
+    }
+}
+
+.use {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #000000;
+}
+
+.use-container {
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 277px;
+}
+
+.use-title {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.use-title-span {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFE9A2;
+
+
+}
+
+.use-title-span-2 {
+    font-family: Unbounded;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #D0A3EE;
+
+}
+
+.use-row {}
+
+.use-row-title {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFE9A2;
+    margin-bottom: 25px;
+    margin-top: 50px;
+
+}
+
+.use-row-text {
+    font-family: Unbounded, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    width: 100%;
+
+
+}
+
+.use-row-btn {
+    width: 388px;
+    height: 35px;
+    background-color: #FFE9A2;
+    font-family: Unbounded, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    border: none;
+    margin-left: 250px;
+}
+
+@media(max-width:768px) {
+    .use {
+        padding-top: 100px;
+    }
+
+    .use-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .use-title {
+        font-family: Unbounded, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+
+
+    }
+
+    .use-title-span {
+        font-family: Unbounded, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .use-title-span-2 {
+        font-family: Unbounded, sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .use-row-text {
+        width: 320px;
+        font-family: Unbounded, sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+
+    }
+
+    .use-row-btn {
+        width: 260px;
+        height: 30px;
+        margin-left: 47px;
+    }
+
+}
+
+.ready {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #000000;
+}
+
+.ready-container {
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 277px;
+
+}
+
+.ready-col {
+    width: 886px;
+    height: 372px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+
+}
+
+.ready-title {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+
+}
+
+.ready-title-span {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFE9A2;
+
+}
+
+.ready-col-title-span {
+    font-family: Unbounded, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EACAFF;
+}
+
+.ready-text {
+    font-family: Unbounded, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.ready-inp {
+    width: 388px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+
+}
+
+.ready-inp::placeholder {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.ready-btn {
+    width: 388px;
+    height: 35px;
+    background-color: #FFE9A2;
+    border-radius: 50px;
+    border: none;
+    margin-top: 37px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Unbounded, sans-serif;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+    left: 245px;
+    top: 20px;
+}
+
+.ready-row-col {
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 105px;
+    justify-content: space-between;
+}
+
+.ready-row-col-text {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.ready-col-texts {}
+
+.ready-col-texts-text {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+
+@media(max-width:768px) {
+    .ready {
+        padding-top: 100px;
+    }
+
+    .ready-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ready-col {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ready-title {
+        font-family: Unbounded;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    .ready-title-span {
+        font-family: Unbounded;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .ready-col-title-span {
+        font-family: Unbounded;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .ready-row-col-text {
+        font-family: Unbounded;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 13px;
+        padding-right: 13px;
+        margin-bottom: 25px;
+
+    }
+
+    .ready-inp {
+        width: 80%;
+        content: counter("Your App link");
+
+    }
+
+    .ready-inp::placeholder {}
+
+    .ready-btn {
+        width: 80%;
+        left: 30px;
+        top: 23px;
+    }
+
+    .ready-row-col-text {
+        font-family: Manrope, sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 100%;
+
+
+    }
+
+    .ready-col-texts-text {
+        font-family: Manrope , sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 100%;
     }
 }
